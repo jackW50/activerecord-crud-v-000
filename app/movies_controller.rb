@@ -56,6 +56,7 @@ def can_find_by_multiple_attributes
   # title == "Title"
   # release_date == 2000
   # director == "Me"
+  Select * FROM movies WHERE release_date = ?,
   Movie.where(title = ?, release_date = ?, director = ?)
 end
 
