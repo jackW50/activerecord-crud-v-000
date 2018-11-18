@@ -32,7 +32,6 @@ def can_be_created_in_a_block(args = {})
     args.each do |key, value|
       m.key = value 
     end 
-    
   end
 end
 
